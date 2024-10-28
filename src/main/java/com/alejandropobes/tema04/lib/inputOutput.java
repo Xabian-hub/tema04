@@ -1,5 +1,6 @@
 package com.alejandropobes.tema04.lib;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class inputOutput {
@@ -26,5 +27,8 @@ public class inputOutput {
         scanner.close();
             return resultado;
     }
-
+    public static int generarCalificacionAleatoria() {
+        Random aleatorio = new Random();
+        return aleatorio.nextInt(11); // Genera una nota entre 0 y 10
+    }
 }

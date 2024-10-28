@@ -12,19 +12,19 @@ public class Ejercicio10 {
     }
 
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int numero = 0;
 
         while (numero >= 0) {
             System.out.println("Introduzca un número (negativo) para salir:");
-            numero = leer.nextInt();
+            numero = scanner.nextInt();
 
             // Si el número es negativo, el bucle termina
             if (numero >= 0) {
                 imprimirTablaDeMultiplicar(numero);
             }
         }
-        leer.close();
+        scanner.close();
         System.out.println("S'acabao.");
     }
 }

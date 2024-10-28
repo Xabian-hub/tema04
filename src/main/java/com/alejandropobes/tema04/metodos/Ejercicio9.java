@@ -17,7 +17,7 @@ public class Ejercicio9 {
         Scanner leer = new Scanner(System.in);
         System.out.println("Introduzca un número:");
 
-        int numero = leer.nextInt();
+        int numero = Integer.parseInt(leer.nextLine());
 
         if (numero > 0) {
             int resultado = sumatorio(numero);

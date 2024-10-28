@@ -1,4 +1,4 @@
 package com.alejandropobes.tema04.metodos;
 
-public class Ejercicio16 {
+public class Ejercicio14 {
 }
